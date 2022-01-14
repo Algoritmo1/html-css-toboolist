@@ -1,5 +1,5 @@
 *{
-    border-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body{
     background-color: cadetblue;
 }
 
-.intestazione{
+#intestazione{
     width: 100%;
     height: 60px;
     background-color: white;
@@ -21,18 +21,21 @@ body{
 
 .container{
     /* padding-left: 50px; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    padding-left: 50px;
+    margin-top: 30px;
     width: 80%;
     height: 800px;
     margin: 0 auto;
-    background-color: green;
+    background-color: red;
+    margin-top: 25px;
 }
 
 .intestazione-nav{
     width: 100%;
     height: 50px;
     background-color: white;
-    margin-top: 25px;
+    
     /* margin-bottom: 4px; */
 }
 
@@ -62,3 +65,40 @@ body{
     border-radius: 5%;
     display: inline-block;
 }
+
+.pulsante-margine-destro-green{
+    width: 30px;
+    height: 20px;
+    background-color: green;
+    font-size: 8px;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.pulsante-margine-destro-orange{
+    width: 30px;
+    height: 20px;
+    background-color: rgb(255, 72, 0);
+    font-size: 8px;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.pulsante-margine-destro-yellow{
+    width: 30px;
+    height: 20px;
+    background-color: yellow;
+    font-size: 8px;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+/* 
+.icona-lista{
+    content: url("");
+} */
+
+.item-lista{
+    list-style: url("114283334-simbolo-del-segno-di-spunta-icona-della-casella-di-controllo.webp")
+}
+
