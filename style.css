@@ -21,23 +21,27 @@ body{
 .intestazione, h1{
     display: inline-block;
 }
- 
+
 .nav{
     width: 900px;
-    height: 50px;
+    height: 80px;
     background-color: white;
     padding: 15px 5px;
-    margin: auto;
-    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px; 
+    border-radius: 5px 5px 0 0;
 }
 
-.bottone{
-    width: 15px;
-    height: 10px;
-    margin: 10px 5px; 
-    padding:3px; 
-    border-radius: 5%;
-    line-height: center;
+.bottone {
+    width: 80px;
+    height: 50px;
+    margin: 10px 15px; 
+    padding: 3px 5px; 
+    border-radius: 30%;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    vertical-align: bmiddle; 
 }
 
 .nav-1{      
@@ -55,55 +59,47 @@ body{
     box-sizing: border-box; 
     padding-top: 40px;
     padding-left: 50px;
-    margin-top: 4px;
+    margin-top: 10px;
     width: 900px;
-    height: 900px;
+    height: 100%;
     margin: 0 auto;
-    background-color: red;
+    background-color: white;
+    line-height: center;
 }
 
-.pulsante-margine-destro-blue{
-    width: 30px;
-    height: 20px;
+.main-sezioni{
+    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.raw{
+    display: inline-block;
+}
+
+.margine-blue{
     background-color: lightblue;
-    font-size: 8px;
-    border-radius: 5%;
     display: inline-block;
+    line-height: center;
 }
-/*
-.pulsante-margine-destro-green{
-    width: 30px;
-    height: 20px;
+
+.margine-green{
     background-color: green;
-    font-size: 8px;
-    border-radius: 5%;
     display: inline-block;
 }
 
-.pulsante-margine-destro-orange{
-    width: 30px;
-    height: 20px;
+.margine-orange{
     background-color: rgb(255, 72, 0);
-    font-size: 8px;
-    border-radius: 5%;
     display: inline-block;
 }
 
-.pulsante-margine-destro-yellow{
-    width: 30px;
-    height: 20px;
+.margine-yellow{
     background-color: yellow;
-    font-size: 8px;
-    border-radius: 5%;
     display: inline-block;
 }
 
-
-.item-lista{
-    list-style: url("114283334-simbolo-del-segno-di-spunta-icona-della-casella-di-controllo.webp")
-}  */
-
-/* 
-.icona-lista{
-    content: url("");
+/* .icon{
+    display: inline-block;
 } */
