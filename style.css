@@ -22,11 +22,16 @@ body{
     display: inline-block;
 }
 
+#Title{
+    vertical-align: top;
+    font-size: 40px;
+}
+
 .nav{
     width: 900px;
     height: 80px;
     background-color: white;
-    padding: 35px 5px;
+    padding: 35px 20px;
     margin: 0 auto;
     margin-bottom: 5px; 
     border-radius: 5px 5px 0 0;
@@ -46,8 +51,8 @@ body{
     /* alignment-baseline: middle; */
 }
 
-.nav-1{  
-    padding: 5px;    
+.nav-1{ 
+    border: 1px solid blue;
     background-color: blue;
     color: white;   
 }
@@ -107,6 +112,18 @@ body{
     display: inline-block;
 }
 
-/* .icon{
-    display: inline-block;
-} */
+.icon{
+    /* width: 20px;
+    height: 20px; */
+    margin-right: 10px;
+    color: green;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px;
+} 
+
+.i-red{
+    color: red;
+}
+
